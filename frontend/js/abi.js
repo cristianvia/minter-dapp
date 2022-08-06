@@ -1,4 +1,4 @@
-const abi = [{
+const abi = [const abi = [{
     "inputs": [{
         "components": [{
             "internalType": "string",
