@@ -229,6 +229,7 @@ async function loadInfo() {
     priceType = 'MATIC';
   }
   const price = web3.utils.fromWei(info.deploymentConfig.mintPrice, 'ether');
+  console.log("price",price)
   const pricePerMint = document.getElementById("pricePerMint");
   const maxPerMint = document.getElementById("maxPerMint");
   const totalSupply = document.getElementById("totalSupply");
@@ -285,8 +286,7 @@ function setTotalPrice() {
     mintInput.disabled = true;
     return;
   }
-  console.log("mintPrice",info.deploymentConfig.mintPrice);
-  console.log("mintInputValue",mintInputValue);
+  console.log("mintPrice inside fn setTotalPrice",info.deploymentConfig.mintPrice);
   const totalPriceWei = BigInt(info.deploymentConfig.mintPrice) * BigInt(mintInputValue);
 
   
