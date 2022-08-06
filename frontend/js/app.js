@@ -173,7 +173,7 @@ async function loadInfo() {
     actionButton.classList.add('hidden');
     mintButton.innerText = button_public_mint;
     mintContainer.classList.remove('hidden');
-    // setTotalPrice();
+    setTotalPrice();
   } else if (presaleMintActive) {
     startTime = window.info.runtimeConfig.publicMintStart;
     mainHeading.innerText = h1_presale_mint;
@@ -285,7 +285,10 @@ function setTotalPrice() {
     mintInput.disabled = true;
     return;
   }
+  console.log("mintPrice",info.deploymentConfig.mintPrice);
+  console.log("mintInputValue",mintInputValue);
   const totalPriceWei = BigInt(info.deploymentConfig.mintPrice) * BigInt(mintInputValue);
+
   
   let priceType = '';
   if(chain === 'rinkeby' || chain === 'ethereum') {
