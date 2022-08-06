@@ -286,7 +286,7 @@ function setTotalPrice() {
     return;
   }
   // const totalPriceWei = BigInt(info.deploymentConfig.mintPrice) * BigInt(mintInputValue);
-  const totalPriceWei = BigInt(info.deploymentConfig.mintPrice) * BigInt(mintInputValue);
+  const totalPriceWei = BigInt(10) * BigInt(1);
   // const totalPriceWei = BigInt(10 * mintInputValue);
   
   let priceType = '';
