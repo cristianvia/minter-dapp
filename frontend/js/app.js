@@ -228,7 +228,7 @@ async function loadInfo() {
   } else if (chain === 'polygon') {
     priceType = 'MATIC';
   }
-  const price = web3.utils.fromWei("10", 'ether');
+  const price = 10;
   const pricePerMint = document.getElementById("pricePerMint");
   const maxPerMint = document.getElementById("maxPerMint");
   const totalSupply = document.getElementById("totalSupply");
@@ -286,7 +286,7 @@ function setTotalPrice() {
     return;
   }
   // const totalPriceWei = BigInt(info.deploymentConfig.mintPrice) * BigInt(mintInputValue);
-  const totalPriceWei = BigInt(1000) * BigInt(1);
+  const totalPriceWei = BigInt(10) * BigInt(1);
   // const totalPriceWei = BigInt(10 * mintInputValue);
   
   let priceType = '';
