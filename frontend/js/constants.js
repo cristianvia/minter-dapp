@@ -1,5 +1,5 @@
-const contractAddress = "0x2622Bd22549d4F986945BEeAB2484D9D18D509C6"; // Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby, polygon, or ethereum
+const contractAddress = "0xA20B9c50Dd9b5A963e7af2d57754bB4F22633bd9"; // Replace with your own contract address
+const chain = 'polygon'; // rinkeby, polygon, or ethereum
 
 const welcome_h1 = "Bienvenidos al mint de Cool Programmers";
 const welcome_h2 = "Conéctate a metamask para empezar";
