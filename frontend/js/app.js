@@ -173,7 +173,7 @@ async function loadInfo() {
     actionButton.classList.add('hidden');
     mintButton.innerText = button_public_mint;
     mintContainer.classList.remove('hidden');
-    setTotalPrice();
+    // setTotalPrice();
   } else if (presaleMintActive) {
     startTime = window.info.runtimeConfig.publicMintStart;
     mainHeading.innerText = h1_presale_mint;
