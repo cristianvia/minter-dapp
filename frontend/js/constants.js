@@ -3,7 +3,7 @@ const chain = 'polygon'; // rinkeby, polygon, or ethereum
 
 const welcome_h1 = "Bienvenidos al mint de Cool Programmers";
 const welcome_h2 = "Conéctate a metamask para empezar";
-const welcome_p = 'La colección Cool Programmers es una colección de prueba. En la actualidad no existe ninguna colección solo de programadores y somos la primera. ¿Qué utilidad tiene? Quien sabe... puede que sea solo un PFP o que sea la whitelist directa a...';
+const welcome_p = 'En la actualidad no existe ninguna colección solo de programadores y somos la primera. ¿Qué utilidad tiene? Quien sabe... puede que sea solo un PFP con acceso a una comunidad para aprender/mejorar a programar entre todos y crear proyectos conjuntos o que sea la whitelist directa a...';
 const h1_presale_coming_soon = "Próximamente, puede que haya un Airdrop...";
 const h1_presale_mint = "Pre-Sale Minting Abierto!!";
 const h1_public_mint = "Minting público abierto!!";
