@@ -332,8 +332,8 @@ async function mint() {
         }
         console.log("Minted successfully!", `Transaction Hash: ${mintTransaction.transactionHash}`);
         //Show onpage that the mint was successful
-        spinner = '<div class="dot-elastic"></div><span>Mint exitoso!</span>';
-        mintButton.innerHTML = spinner;
+        const exitMintMsg = '<div class="dot-elastic"></div><span>MINT EXITOSO!</span>';
+        mintButton.innerHTML = exitMintMsg;
         const mainText = document.getElementById("mainText");
         mainText.innerText = `Transaction Hash: ${mintTransaction.transactionHash}`;
 
@@ -379,7 +379,7 @@ async function mint() {
         mintButton.innerHTML = spinner;
         const mainText = document.getElementById("mainText");
         mainText.innerText = `Transaction Hash: ${mintTransaction.transactionHash}`;
-        
+
       } else {
         const mainText = document.getElementById("mainText");
         mainText.innerText = mint_failed;
